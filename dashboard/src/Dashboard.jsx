@@ -57,7 +57,7 @@ function Dashboard() {
           <div className="dash-box">
             <h3>Quick Actions</h3>
             <a href="addproduct"><button className="dash-btn"><i className="fa-solid fa-plus"></i>Add Product</button></a>
-            <button className="dash-btn"> <a href="Vieworder" style={{ textDecoration: "none", color: "inherit" }}>📦 View Orders</a></button>
+            <button className="dash-btn"> <a href="Vieworder" style={{ textDecoration: "none", color: "inherit" }}><i classNmae="fa-solid fa-box"></i> View Orders</a></button>
             <button className="dash-btn"> Notification Test</button>
           </div>
 
