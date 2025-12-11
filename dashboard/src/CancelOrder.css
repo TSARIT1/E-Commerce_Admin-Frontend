@@ -1,0 +1,107 @@
+.cancel-order {
+  padding: 35px;
+  font-family: Arial;
+  margin-top: 8%;
+}
+
+.co-title {
+  text-align: center;
+  font-size: 32px;
+  color: #ff7b00;
+}
+
+.co-sub {
+  text-align: center;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+
+.co-table-box {
+  overflow-x: auto;
+}
+
+.co-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.co-table th {
+  background: #ff7b00;
+  color: white;
+  padding: 12px;
+  font-size: 15px;
+}
+
+.co-table td {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.co-table tr:hover {
+  background: #84603b;
+}
+
+
+.status.processing {
+  color: #e67e22;
+  font-weight: bold;
+}
+
+.status.pending {
+  color: #d35400;
+  font-weight: bold;
+}
+
+.status.shipped {
+  color: #2ecc71;
+  font-weight: bold;
+}
+
+
+.co-btn {
+  padding: 6px 14px;
+  background: #e63946;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.co-btn:hover {
+  background: #c1121f;
+}
+
+
+@media(max-width: 600px) {
+  .co-title {
+    font-size: 26px;
+  }
+}
+
+.co-close {
+  font-size: 25px;
+  font-weight: 900;
+  cursor: pointer;
+  position: absolute;
+  top: 18px;
+  right: 28px;
+  padding: 5px 12px;
+  border-radius: 10px;
+  background: #fff;
+  color: #ff2929;
+  box-shadow: 0 0 10px #0003;
+  transition: 0.3s;
+}
+
+.co-close:hover {
+  background: #ff2929;
+  color: white;
+}
+
+.cancel-order {
+  position: relative;
+}

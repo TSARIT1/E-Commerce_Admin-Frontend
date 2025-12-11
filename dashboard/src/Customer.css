@@ -1,0 +1,144 @@
+.customer {
+  padding: 35px;
+  font-family: Arial;
+  margin-top: 8%;
+}
+
+.cust-title {
+  font-size: 32px;
+  color: #ff7b00;
+  text-align: center;
+}
+
+.cust-sub {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #666;
+}
+
+
+.cust-search {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.cust-search input {
+  width: 250px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+}
+
+.cust-search button {
+  padding: 10px 20px;
+  background: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cust-search button:hover {
+  background: #005ecc;
+}
+
+
+.cust-table-box {
+  overflow-x: auto;
+}
+
+.cust-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.cust-table th {
+  background: #ff7b00;
+  color: white;
+  padding: 12px;
+  font-size: 15px;
+}
+
+.cust-table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.cust-table tr:hover {
+  background: hsl(0, 100%, 95%);
+}
+
+
+.view-btn {
+  padding: 6px 14px;
+  background: #00b894;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.view-btn:hover {
+  background: #009674;
+}
+
+.delete-btn {
+  padding: 6px 14px;
+  background: #e63946;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: #d62839;
+}
+
+
+@media(max-width: 600px) {
+  .cust-search {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cust-search input {
+    width: 90%;
+  }
+
+  .cust-search button {
+    width: 90%;
+  }
+}
+
+
+.co-close {
+  font-size: 25px;
+  font-weight: 900;
+  cursor: pointer;
+  position: absolute;
+  top: 18px;
+  right: 28px;
+  padding: 5px 12px;
+  border-radius: 10px;
+  background: #fff;
+  color: #ff2929;
+  box-shadow: 0 0 10px #0003;
+  transition: 0.3s;
+  margin-top: 5%;
+}
+
+.co-close:hover {
+  background: #ff2929;
+  color: white;
+}
+
+.customer {
+  position: relative;
+}
